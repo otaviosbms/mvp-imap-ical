@@ -1,0 +1,7 @@
+{
+  "allowedSenders": [
+    "exemplo@gmail.com",
+    "noreply@empresa.com",
+    "newsletter@site.com.br"
+  ]
+}

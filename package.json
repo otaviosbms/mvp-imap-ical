@@ -1,0 +1,17 @@
+{
+  "name": "imap-ics-feed",
+  "version": "1.0.0",
+  "description": "Conecta a um email por IMAP e gera feed .ics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ical-generator": "^8.0.1",
+    "imapflow": "^1.0.162",
+    "mailparser": "^3.7.1"
+  }
+}
